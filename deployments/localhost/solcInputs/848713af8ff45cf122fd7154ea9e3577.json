@@ -1,0 +1,36 @@
+{
+  "language": "Solidity",
+  "sources": {
+    "contracts/Storage.sol": {
+      "content": "// SPDX-License-Identifier: UNLICENSED\npragma solidity ^0.8.17;\n\n// Uncomment this line to use console.log\n// import \"hardhat/console.sol\";\ncontract Storage {\n    uint256 x = 97; // 0x0\n    uint256 y = 56; // 0x1\n\n    mapping(uint => uint) testing; // 0x2\n\n    constructor() {\n        // keccack256(1 + 0x2)\n        testing[1] = 77;\n        // keccack256(4 + 0x2)\n        testing[4] = 44;\n    }\n}\n"
+    }
+  },
+  "settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "abi",
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "evm.methodIdentifiers",
+          "metadata",
+          "devdoc",
+          "userdoc",
+          "storageLayout",
+          "evm.gasEstimates"
+        ],
+        "": [
+          "ast"
+        ]
+      }
+    },
+    "metadata": {
+      "useLiteralContent": true
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "abi": [],
+  "transactionHash": "0x53e2c38d84932b2563c3866bc1a675523c43c25920fb7cc14546502d1f182041",
+  "receipt": {
+    "to": null,
+    "from": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+    "contractAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "transactionIndex": 0,
+    "gasUsed": "111434",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0xfc1d0bfa15d2b3dab3c40d246bb4b5cc290473f711d99f2e62c965cd002b9fb8",
+    "transactionHash": "0x53e2c38d84932b2563c3866bc1a675523c43c25920fb7cc14546502d1f182041",
+    "logs": [],
+    "blockNumber": 1,
+    "cumulativeGasUsed": "111434",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "d2788591e4dc185a69dbd5d372e6bf93",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/Storage.sol\":\"Storage\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/Storage.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\npragma solidity ^0.8.17;\\n\\n// Uncomment this line to use console.log\\n// import \\\"hardhat/console.sol\\\";\\ncontract Storage {\\n    uint256 x = 97;\\n    uint256 y = 56;\\n}\\n\",\"keccak256\":\"0x44614b05a15ca78eb7569cba764dc2f3efc35e66baf93f787d30b1fdbe619dc0\",\"license\":\"UNLICENSED\"}},\"version\":1}",
+  "bytecode": "0x608060405260616000556038600155348015601957600080fd5b50603f8060276000396000f3fe6080604052600080fdfea2646970667358221220d6fbf17d2528787156efe50456b9aaea54215cadc9b24e443f88f764824ceb5364736f6c63430008140033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220d6fbf17d2528787156efe50456b9aaea54215cadc9b24e443f88f764824ceb5364736f6c63430008140033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 4,
+        "contract": "contracts/Storage.sol:Storage",
+        "label": "x",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 7,
+        "contract": "contracts/Storage.sol:Storage",
+        "label": "y",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_uint256"
+      }
+    ],
+    "types": {
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}
